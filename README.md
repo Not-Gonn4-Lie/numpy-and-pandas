@@ -10,8 +10,9 @@ Tools for integrating with C/C++ and Fortran code
 
 Support for linear algebra, Fourier transforms, and random number generation
 # Core Features of NumPy
-   1. Creating Arrays
-       import numpy as np
+   # 1. Creating Arrays
 
-   a = np.array([1, 2, 3])           # 1D array
-   b = np.array([[1, 2], [3, 4]])    # 2D array
+      import numpy as np
+   
+      a = np.array([1, 2, 3])           # 1D array
+      b = np.array([[1, 2], [3, 4]])    # 2D array
