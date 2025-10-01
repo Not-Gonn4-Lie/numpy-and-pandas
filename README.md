@@ -39,15 +39,15 @@ Support for linear algebra, Fourier transforms, and random number generation
 # 6. Broadcasting
 Allows operations on arrays of different shapes.
 
-   a = np.array([[1], [2], [3]])
-   b = np.array([10, 20, 30])
-   print(a + b)
+      a = np.array([[1], [2], [3]])
+      b = np.array([10, 20, 30])
+      print(a + b)
 # 7. Linear Algebra
 
-   A = np.array([[1, 2], [3, 4]])
-   B = np.array([[2, 0], [1, 2]])
-   print(np.dot(A, B))     # Matrix multiplication
-   print(np.linalg.inv(A)) # Inverse of A
+      A = np.array([[1, 2], [3, 4]])
+      B = np.array([[2, 0], [1, 2]])
+      print(np.dot(A, B))     # Matrix multiplication
+      print(np.linalg.inv(A)) # Inverse of A
 # Why Use NumPy?
 Speed: Much faster than native Python lists
 
