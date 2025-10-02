@@ -16,6 +16,8 @@ Support for linear algebra, Fourier transforms, and random number generation
    
       a = np.array([1, 2, 3])           # 1D array
       b = np.array([[1, 2], [3, 4]])    # 2D array
+      print(a)
+      print(b)
 # 2. Array Operations
 
       a = np.array([1, 2, 3])
